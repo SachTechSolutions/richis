@@ -2,8 +2,9 @@
  * Created by SachTech on 26-04-2018.
  */
 import React, { Component } from 'react';
-import { Router, browserHistory, Route, Link} from 'react-router';
+import { Link} from 'react-router';
 import logo from '../logo.svg';
+
 class Page extends React.Component {
     render() {
         return (
