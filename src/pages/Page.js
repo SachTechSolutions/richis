@@ -1,6 +1,7 @@
 /**
  * Created by SachTech on 26-04-2018.
  */
+// eslint-disable-next-line
 import React, { Component } from 'react';
 import { Link} from 'react-router';
 import logo from '../logo.svg';
