@@ -1,0 +1,36 @@
+{
+  "name": "hapi-react-spa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "hapi": "^16.5.2",
+    "inert": "^4.2.1",
+    "path": "^0.12.7",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^3.0.5",
+    "react-scripts": "^1.1.4"
+  },
+  "scripts": {
+    "postinstall": "npm run build",
+    "serve": "node server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage"
+  },
+  "devDependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.54.1",
+    "prettier-eslint": "^7.1.0"
+  },
+  "engines": {
+    "node": "8.1.0"
+  }
+}
