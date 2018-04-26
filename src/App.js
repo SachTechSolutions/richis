@@ -19,7 +19,7 @@ const Page = ({ title }) => (
             <Link to="/about">About</Link>
         </p>
         <p>
-            <Link to="/settings">Settings</Link>
+            <Link to="/settings">Settingssssss</Link>
         </p>
     </div>
 );
