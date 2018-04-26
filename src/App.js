@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import { Router, browserHistory, Route} from 'react-router';
 
 import './App.css';
