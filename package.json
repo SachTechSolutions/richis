@@ -8,7 +8,8 @@
     "path": "^0.12.7",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-router": "^3.0.5"
+    "react-router": "^3.0.5",
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
     "postinstall": "npm run build",
