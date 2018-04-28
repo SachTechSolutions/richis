@@ -3,9 +3,10 @@ import { Router, browserHistory, Route} from 'react-router';
 
 import './App.css';
 import Page from './pages/Page';
+import Main from './pages/Main';
 
 const Home = (props) => (
-    <Page title="Home" />
+    <Main title="Home" />
 );
 
 const About = (props) => (
@@ -21,8 +22,7 @@ class App extends Component {
         return (
             <Router history={browserHistory}>
                 <Route path="/" component={Home}/>
-                <Route path="/about" component={About}/>
-                <Route path="/settings" component={Settings}/>
+
             </Router>
         );
     }
