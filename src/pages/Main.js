@@ -47,7 +47,6 @@ class Main extends React.Component {
                                 <div className="eight columns">
                                     <div className="contain-to-grid sticky">
                                         <nav className="top-bar">
-                                            {/* eslint-disable-next-line */}
                                             <a href="http://date-appp.herokuapp.com" className="small-logo"><img
                                                 src="https://seventhqueen.com/demo/sweetdatewp-modern/wp-content/themes/sweetdate/assets/images/small_logo.png"
                                                 height="43" alt="Sweet Date"/></a>
