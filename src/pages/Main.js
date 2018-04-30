@@ -4,7 +4,8 @@
 // eslint-disable-next-line
 import React, {Component} from 'react';
 import logo from '../images/logo.png';
-// eslint-disable-next-line 
+import smalllogo from '../images/small-logo.png';
+// eslint-disable-next-line
 class Main extends React.Component {
     render() {
         return (
@@ -16,12 +17,12 @@ class Main extends React.Component {
                             <div className="row">
                                 <div className="four columns">
 
-                                    <div id="logo">Sweet Date
+                                    <div id="logo">Richies
 
                                     <a href="http://date-appp.herokuapp.com">
                                         <img id="logo_img"
                                              src={logo}
-                                             width="294" height="108" alt="Sweet Date"/>
+                                             width="294" height="108" alt="Richies"/>
                                     </a>
                                     </div>
                                 </div>
@@ -48,8 +49,8 @@ class Main extends React.Component {
                                     <div className="contain-to-grid sticky">
                                         <nav className="top-bar">
                                             <a href="http://date-appp.herokuapp.com" className="small-logo"><img
-                                                src="http://date-appp.herokuapp.com"
-                                                height="43" alt="Sweet Date"/></a>
+                                                src={smalllogo}
+                                                height="43" alt="Richies"/></a>
                                             <ul>
                                                 <li className="name">
                                                     {/* eslint-disable-next-line */}

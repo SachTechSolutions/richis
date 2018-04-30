@@ -855,7 +855,7 @@ video {
 
 .sticky.fixed {
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 1);
     height: 43px;
     padding-top: 3px;
     -webkit-backface-visibility: hidden;
