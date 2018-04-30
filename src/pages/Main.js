@@ -36,7 +36,7 @@ class Main extends React.Component {
                                         </li>
 
                                         <li className="header-register-button">
-                                            {/* eslint-disable-next-line */}
+                                           
                                             <a href="http://date-appp.herokuapp.com" data-reveal-id="" className="tiny button radius">
                                                 <i className="icon-group hide-for-medium-down"></i>
                                                 SIGN UP </a>
