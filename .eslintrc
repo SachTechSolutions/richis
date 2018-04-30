@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "no-script-url": 0
+  }
+}
