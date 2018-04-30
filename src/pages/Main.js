@@ -92,10 +92,6 @@ class Main extends React.Component {
                                                             </ul>
                                                         </ul>
                                                     </li>
-                                                    <li id="nav-menu-item-952"><a
-                                                        href="http://date-appp.herokuapp.com"
-                                                        className="menu-item menu-item-type-post_type menu-item-object-page sub-menu-link">Contact</a>
-                                                    </li>
 
 
                                             <li id="nav-menu-item-858" className="has-dropdown">
