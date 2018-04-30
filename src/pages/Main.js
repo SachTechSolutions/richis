@@ -48,7 +48,7 @@ class Main extends React.Component {
                                     <div className="contain-to-grid sticky">
                                         <nav className="top-bar">
                                             <a href="http://date-appp.herokuapp.com" className="small-logo"><img
-                                                src="https://seventhqueen.com/demo/sweetdatewp-modern/wp-content/themes/sweetdate/assets/images/small_logo.png"
+                                                src="http://date-appp.herokuapp.com"
                                                 height="43" alt="Sweet Date"/></a>
                                             <ul>
                                                 <li className="name">
@@ -93,7 +93,7 @@ class Main extends React.Component {
                                                         </ul>
                                                     </li>
                                                     <li id="nav-menu-item-952"><a
-                                                        href="https://seventhqueen.com/demo/sweetdatewp-modern/contact/"
+                                                        href="http://date-appp.herokuapp.com"
                                                         className="menu-item menu-item-type-post_type menu-item-object-page sub-menu-link">Contact</a>
                                                     </li>
 
@@ -164,7 +164,7 @@ class Main extends React.Component {
                                         </div>
 
                                         <form id="register_form_front"
-                                              action="https://seventhqueen.com/demo/sweetdatewp-modern/register/"
+                                              action="http://date-appp.herokuapp.com"
                                               method="post" className="custom form-search">
 
                                             <div className="row">
