@@ -686,6 +686,7 @@ video {
 #logo img {
     display: block;
     float: left;
+    width: 210px;
 }
 
 #logo a {

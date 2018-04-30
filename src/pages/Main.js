@@ -15,7 +15,7 @@ class Main extends React.Component {
                         <div id="header">
                             <div className="row">
                                 <div className="four columns">
-                                    <div id="logo">Sweet Date <a href="null">
+                                    <div id="logo">Sweet Date <a href="javascript:void(0)">
                                         <img id="logo_img"
                                              src={logo}
                                              width="294" height="108" alt="Sweet Date"/>
@@ -26,13 +26,13 @@ class Main extends React.Component {
                                     <ul className="button-group radius right">
 
                                         <li className="header-login-button">
-                                            <a href="null" data-reveal-id="" className="tiny secondary button radius">
+                                            <a href="javascript:void(0)" data-reveal-id="" className="tiny secondary button radius">
                                                 <i className="icon-user hide-for-medium-down"/>
                                                 LOG IN </a>
                                         </li>
 
                                         <li className="header-register-button">
-                                            <a href="null" data-reveal-id="" className="tiny button radius">
+                                            <a href="javascript:void(0)" data-reveal-id="" className="tiny button radius">
                                                 <i className="icon-group hide-for-medium-down"></i>
                                                 SIGN UP </a>
                                         </li>
@@ -42,37 +42,37 @@ class Main extends React.Component {
                                 <div className="eight columns">
                                     <div className="contain-to-grid sticky">
                                         <nav className="top-bar">
-                                            <a href="null" className="small-logo"><img
+                                            <a href="javascript:void(0)" className="small-logo"><img
                                                 src="https://seventhqueen.com/demo/sweetdatewp-modern/wp-content/themes/sweetdate/assets/images/small_logo.png"
                                                 height="43" alt="Sweet Date"/></a>
                                             <ul>
                                                 <li className="name">
-                                                    <h1><a href="null">Please select your page</a>
+                                                    <h1><a href="javascript:void(0)">Please select your page</a>
                                                     </h1>
                                                 </li>
-                                                <li className="toggle-topbar"><a href="null"><i className="icon-reorder"></i></a></li>
+                                                <li className="toggle-topbar"><a href="javascript:void(0)"><i className="icon-reorder"></i></a></li>
                                             </ul>
 
                                             <section>
                                                 <ul id="menu-sweetdate" className="left">
-                                                    <li id="nav-menu-item-918"><a href="null"
+                                                    <li id="nav-menu-item-918"><a href="javascript:void(0)"
                                                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item main-menu-link">Home</a>
                                                     </li>
-                                                    <li id="nav-menu-item-971" className="has-dropdown"><a href="null"
+                                                    <li id="nav-menu-item-971" className="has-dropdown"><a href="javascript:void(0)"
                                                                                                        className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children main-menu-link">Features</a>
                                                         <ul className="dropdown">
-                                                            <li id="nav-menu-item-917"><a href="null"
+                                                            <li id="nav-menu-item-917"><a href="javascript:void(0)"
                                                                                           className="menu-item menu-item-type-post_type menu-item-object-page sub-menu-link">Blog</a>
                                                             </li>
-                                                            <li id="nav-menu-item-960"><a href="null"
+                                                            <li id="nav-menu-item-960"><a href="javascript:void(0)"
                                                                                           className="menu-item menu-item-type-post_type menu-item-object-page sub-menu-link">About
                                                                 us</a>
                                                             </li>
                                                             <ul className="dropdown">
-                                                                <li id="nav-menu-item-865"><a href="null"
+                                                                <li id="nav-menu-item-865"><a href="javascript:void(0)"
                                                                                               className="menu-item menu-item-type-custom menu-item-object-custom sub-menu-link">Sample</a>
                                                                 </li>
-                                                                <li id="nav-menu-item-866"><a href="null"
+                                                                <li id="nav-menu-item-866"><a href="javascript:void(0)"
                                                                                               className="menu-item menu-item-type-custom menu-item-object-custom sub-menu-link">Sample
                                                                     link</a>
                                                                 </li>
@@ -86,20 +86,20 @@ class Main extends React.Component {
 
 
                                             <li id="nav-menu-item-858" className="has-dropdown"><a
-                                                href="null"
+                                                href="javascript:void(0)"
                                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children main-menu-link">Price</a>
                                             </li>
-                                            <li id="nav-menu-item-857" className="has-dropdown"><a href="null"
+                                            <li id="nav-menu-item-857" className="has-dropdown"><a href="javascript:void(0)"
                                                                                                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children main-menu-link">Blogs</a>
                                             </li>
 
                                             <li id="nav-menu-item-989"><a
-                                                href="null"
+                                                href="javascript:void(0)"
                                                 className="menu-item menu-item-type-custom menu-item-object-custom main-menu-link">Contact</a></li>
                                             <li id="nav-menu-item-search" className="menu-item kleo-menu-item-search"><a
-                                                className="search-trigger" href="null"><i className="icon icon-search"/></a>
+                                                className="search-trigger" href="javascript:void(0)"><i className="icon icon-search"/></a>
                                                 <div className="searchHidden" id="ajax_search_container">
-                                                    <form action="null"
+                                                    <form action="javascript:void(0)"
                                                           id="ajax_searchform" method="get" className="custom">
                                                         <div className="row collapse">
                                                             <div className="nine columns">
@@ -173,9 +173,7 @@ class Main extends React.Component {
                                                     <input type="password" name="signup_password" required="required"
                                                            placeholder="Required"/>
                                                 </div>
-                                                <div className="one mobile-one columns text-center">
-                                                    <label className="inline"></label>
-                                                </div>
+
                                                 <div className="three mobile-one columns">
                                                     <input type="password" name="signup_password_confirm"
                                                            required="required" placeholder="Confirm"/>
@@ -187,7 +185,7 @@ class Main extends React.Component {
                                                     <button className="button radius front-form-button"><i
                                                         className="icon-user"></i> &nbsp;Sign Up
                                                     </button>
-                                                    <a href="null" className="facebook_connect radius button facebook"><i
+                                                    <a href="javascript:void(0)" className="facebook_connect radius button facebook"><i
                                                         className="icon-facebook"></i></a>
                                                 </div>
                                             </div>
@@ -197,21 +195,21 @@ class Main extends React.Component {
                                         <div className="form-footer">
                                             <strong>Latest registered members</strong>
                                             <div className="kleo_members_carousel "><p><span className="right hide-for-small"><a
-                                                href="null" className="profile-thumbs-prev"><i
-                                                className="icon-circle-arrow-left icon-large"></i></a>&nbsp;<a href="null"
+                                                href="javascript:void(0)" className="profile-thumbs-prev"><i
+                                                className="icon-circle-arrow-left icon-large"></i></a>&nbsp;<a href="javascript:void(0)"
                                                                                                            className="profile-thumbs-next"><i
                                                 className="icon-circle-arrow-right icon-large"></i></a></span></p>
                                                 <div className="clearfix"></div>
                                                 <div className="carousel-profiles responsive">
                                                     <ul className="profile-thumbs">
                                                         <li>
-                                                            <a href="null"><img
+                                                            <a href="javascript:void(0)"><img
                                                                 src='https://graph.facebook.com/10211329965703458/picture?width=580&amp;height=580'
                                                                 className=" user-45150-avatar avatar-94 photo" width="94"
                                                                 height="94"
                                                                 alt=""/></a></li>
                                                         <li>
-                                                            <a href="null"><img
+                                                            <a href="javascript:void(0)"><img
                                                                 src='https://graph.facebook.com/169429173760852/picture?width=580&amp;height=580'
                                                                 className=" user-45149-avatar avatar-94 photo" width="94"
                                                                 height="94"
