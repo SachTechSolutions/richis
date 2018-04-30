@@ -1,3 +1,4 @@
+
 .header-bg {
     background-color: #000000;
     background-image: url("../images/blurred_bg_01.jpg");
@@ -6,7 +7,12 @@
     background-attachment: fixed;
     background-size: cover
 }
-
+::placeholder{
+    color: #FFFFFF!important;
+}
+.top-bar ul>li a:not(.button){
+    font-weight: normal;
+}
 #header, #header .form-header .lead, #header label {
     color: #ffffff;
 }
