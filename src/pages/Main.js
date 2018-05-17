@@ -3,9 +3,9 @@
  */
 
 import React, {Component} from 'react';
+import backgroundimg from '../images/background.jpg';
 import logo from '../images/logo/logo.png';
 import footerlogo from '../images/logo/footer-logo.png';
-import backgroundimg from '../images/background.jpg';
 import appstore from '../images/icons/app-store.png';
 import playstore from '../images/icons/google-play.png';
 import fbimg from '../images/icons/login_button_a.png';
