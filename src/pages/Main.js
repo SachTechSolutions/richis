@@ -81,7 +81,7 @@ class Main extends Component {
                                 <img src={richie_screen} alt="screen"/>
                             </div>
                             <div className="col-md-6 text-center pd-80">
-                                <img src={couple} alt="couple"/>
+                                <img src={couple} alt="couplee"/>
                                     <p className="clr-darkred">How To Register Richies <a href="https://date-app.herokuapp.com">Terms & Condition</a> <a href="https://date-app.herokuapp.com">Privacy Policy</a> </p>
                                     <a href="."><img src={fbimg} alt="facebookico"/></a>
                                     <a className="store-link" href="."><img src={playstore} alt="playstore"/></a>
