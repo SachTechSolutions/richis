@@ -1,260 +1,409 @@
 /**
  * Created by SachTech on 28-04-2018.
  */
-// eslint-disable-next-line
+
 import React, {Component} from 'react';
-import logo from '../images/logo.png';
-import smalllogo from '../images/small-logo.png';
-// eslint-disable-next-line
+import logo from '../images/logo/logo.png';
+import footerlogo from '../images/logo/footer-logo.png';
+import backgroundImg from '../images/background.jpg';
+import appstore from '../images/icons/app-store.png';
+import playstore from '../images/icons/google-play.png';
+import fbimg from '../images/icons/login_button_a.png';
+import couple from '../images/couple.png';
+import richie_screen from '../images/richies-screen.png';
+import single_mobile from '../images/register-mobile.png';
+import related_1 from '../images/related-news/01.jpg';
+import related_2 from '../images/related-news/02.jpg';
+import related_3 from '../images/related-news/03.jpg';
+import related_4 from '../images/related-news/04.jpg';
+import related_5 from '../images/related-news/05.jpg';
+import related_6 from '../images/related-news/06.jpg';
+import choise_1 from '../images/why-choose/choise1.jpg';
+import choise_2 from '../images/why-choose/choise2.jpg';
+import choise_3 from '../images/why-choose/choise3.jpg';
+import choise_4 from '../images/why-choose/choise4.jpg';
+import choise_5 from '../images/why-choose/choise5.jpg';
+import why_1 from '../images/why-choose/why1.jpg';
+import why_2 from '../images/why-choose/why2.jpg';
+import why_3 from '../images/why-choose/why3.png';
+
+
 class Main extends React.Component {
     render() {
         return (
-            <body className="home-page bp-legacy home page-template page-template-page-templates page-template-front-page page-template-page-templatesfront-page-php page page-id-8 pmpro-body-has-access elementor-default no-js">
-            <div className="kleo-page wide-style">
-                <header>
-                    <div className="header-bg clearfix">
-                        <div id="header">
-                            <div className="row">
-                                <div className="four columns">
+        <body>
+            <div className="nav-container">
+                <nav className="top-bar overlay-bar">
+                    <div className="container">
+                        <div className="row nav-menu">
+                            <div className="col-sm-3 col-md-2 columns">
+                                <a href="index.html">
+                                    <img className="logo logo-light" alt="Logo" src={logo}/>
+                                    <img className="logo logo-dark" alt="Logo" src={logo}/>
+                                </a>
+                            </div>
 
-                                    <div id="logo">Richies
+                            <div className="col-sm-9 col-md-10 columns">
+                                <ul className="menu">
+                                    <li className=""><a href="#">Happy Report</a>
+                                    </li>
+                                    <li className=""><a href="#">Richies Collumn</a>
+                                    </li>
+                                    <li className=""><a  href="#">Price</a>
+                                    </li>
+                                    <li className=""><a href="#">Events</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                                    <a href="http://date-appp.herokuapp.com">
-                                        <img id="logo_img"
-                                             src={logo}
-                                             width="294" height="108" alt="Richies"/>
-                                    </a>
+                        <div className="mobile-toggle">
+                            <i className="icon icon_menu"></i>
+                        </div>
+
+                    </div>
+                    {/* end of container */}
+                </nav>
+            </div>
+
+            <div className="main-container">
+                <header className="fullscreen-element no-pad centered-text">
+                    <div className="background-image-holder parallax-background">
+                        <img className="background-image" alt="Background Image" src={backgroundImg}/>
+                    </div>
+
+                    <div className="container align-vertical" >
+                        <div className="row">
+                            <div className="col-md-6 text-center pd-120">
+                                <h1 className="alt-font clr-darkred" >Welcome To <span className="clr-orange"> Richies </span></h1>
+                                <p className="clr-darkred">There is only one happiness in this life, to love and be loved.</p>
+                                <p className="lead clr-darkred">Tons of elements, Consistent style, Variant builder included.</p>
+                                <img src={richie_screen} />
+                            </div>
+                            <div className="col-md-6 text-center pd-80">
+                                <img src={couple}/>
+                                    <p className="clr-darkred">How To Register Richies <a href="#">Terms & Condition</a> <a href="#">Privacy Policy</a> </p>
+                                    <a href="."><img src={fbimg}/></a>
+                                    <a className="store-link" href="."><img src={playstore}/></a>
+                                    <a className="store-link" href="."><img src={appstore}/></a>
+                            </div>
+
+                        </div>{/* end of row */}
+                    </div>{/* end of container */}
+                </header>
+
+                <section className="blog-masonry bg-muted">
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-12 text-center">
+                                <h1>Related <span className="clr-orange"> News </span></h1>
+                            </div>
+                        </div>{/* end of row */}
+                    </div>{/* end of container */}
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="blog-masonry-container">
+
+                                <div className="col-md-4 col-sm-6 blog-masonry-item branding">
+                                    <div className="item-inner">
+                                        <a href="#">
+                                            <img alt="Blog Preview" src={related_1}/>
+                                        </a>
+                                        <div className="post-title">
+                                            <h2>Layout out my writing gear as though I'll use it.</h2>
+                                            <div className="post-meta">
+                                                <span className="sub alt-font">Posted on June 16th</span>
+                                                <span className="sub alt-font">4 Minute Read</span>
+                                            </div>
+                                            <a href="#" className="link-text">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>{/* end of individual post */}
+
+
+                                <div className="col-md-4 col-sm-6 blog-masonry-item development">
+                                    <div className="item-inner">
+                                        <a href="#">
+                                            <img alt="Blog Preview" src={related_2} />
+                                        </a>
+                                        <div className="post-title">
+                                            <h2>Cooking up a batch of Ma's famous breadsticks</h2>
+                                            <div className="post-meta">
+                                                <span className="sub alt-font">Posted on June 13th</span>
+                                                <span className="sub alt-font">4 Minute Read</span>
+                                            </div>
+                                            <a href="#" className="link-text">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>{/* end of individual post */}
+
+                                <div className="col-md-4 col-sm-6 blog-masonry-item print">
+                                    <div className="item-inner">
+                                        <a href="#">
+                                            <img alt="Blog Preview" src={related_3}/>
+                                        </a>
+                                        <div className="post-title">
+                                            <h2>Wearing my trendy straw hat at the farm.</h2>
+                                            <div className="post-meta">
+                                                <span className="sub alt-font">Posted on June 11th</span>
+                                                <span className="sub alt-font">4 Minute Read</span>
+                                            </div>
+                                            <a href="#" className="link-text">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>{/* end of individual post */}
+
+                                <div className="col-md-4 col-sm-6 blog-masonry-item branding">
+                                    <div className="item-inner">
+                                        <a href="#">
+                                            <img alt="Blog Preview" src={related_4} />
+                                        </a>
+                                        <div className="post-title">
+                                            <h2>Happy snaps in my hand-made raft at sunset</h2>
+                                            <div className="post-meta">
+                                                <span className="sub alt-font">Posted on June 8th</span>
+                                                <span className="sub alt-font">2 Minute Read</span>
+                                            </div>
+                                            <a href="#" className="link-text">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>{/* end of individual post */}
+
+                                <div className="col-md-4 col-sm-6 blog-masonry-item print">
+                                    <div className="item-inner">
+                                        <a href="#">
+                                            <img alt="Blog Preview" src={related_5}/>
+                                        </a>
+                                        <div className="post-title">
+                                            <h2>Wearing my trendy straw hat at the farm.</h2>
+                                            <div className="post-meta">
+                                                <span className="sub alt-font">Posted on June 11th</span>
+                                                <span className="sub alt-font">4 Minute Read</span>
+                                            </div>
+                                            <a href="#" className="link-text">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>{/* end of individual post */}
+
+                                <div className="col-md-4 col-sm-6 blog-masonry-item branding">
+                                    <div className="item-inner">
+                                        <a href="#">
+                                            <img alt="Blog Preview" src={related_6}/>
+                                        </a>
+                                        <div className="post-title">
+                                            <h2>Happy snaps in my hand-made raft at sunset</h2>
+                                            <div className="post-meta">
+                                                <span className="sub alt-font">Posted on June 8th</span>
+                                                <span className="sub alt-font">2 Minute Read</span>
+                                            </div>
+                                            <a href="#" className="link-text">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>{/* end of individual post */}
+                            </div>{/* end of blog masonry container */}
+                        </div>{/* end of row */}
+                    </div>{/*end of container*/}
+                </section>
+
+
+                <section className="duplicatable-content">
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 text-center">
+                                <h1>What We Choose <span className="clr-orange">Richies</span></h1>
+                            </div>
+                        </div>{/*end of row*/}
+
+                        <div className="row">
+                            <div className="col-md-4 col-sm-6">
+                                <div className="feature feature-icon-large">
+                                    <img src={choise_1}/>
+                                        <h3>1.Consistent Typography</h3>
+
+                                </div>
+                            </div>
+
+                            <div className="col-md-4 col-sm-6">
+                                <div className="feature  feature-icon-large">
+                                    <img src={choise_2}/>
+                                        <h3>2. Varied Element Set</h3>
+
+                                </div>
+                            </div>
+
+                            <div className="col-md-4 col-sm-6">
+                                <div className="feature  feature-icon-large">
+                                    <img src={choise_3}/>
+                                        <h3>3. Variant Builder</h3>
+
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 col-sm-6">
+                                <div className="feature feature-icon-large">
+                                    <img src={choise_4}/>
+                                        <h3>4. Consistent Typography</h3>
+
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 col-sm-6">
+                                <div className="feature feature-icon-large">
+                                    <img src={choise_5}/>
+                                        <h3>5. Varied Element Set</h3>
+
+                                </div>
+                            </div>
+                        </div>{/*end of row*/}
+                    </div>
+                </section>
+
+                <section className="feature-divider">
+
+                    <div className="background-image-holder" data-scroll-reveal="wait 0.2s then enter 200px from bottom over 0.3s">
+                        <img className="background-image" alt="Background Image" src="img/grey-bg.jpg"/>
+                    </div>
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-5">
+                                <h1>How To <span className="clr-orange">Register </span></h1>
+							    <a href='#'>
+							    <img src={fbimg}/>
+                                    <p className="clr-darkred">How To Register Richies <a href='#'>Terms & Condition</a>
+                                    <a href="#">Privacy Policy</a> </p>
+                                    <a className="store-link" href="#"><img alt="Buy On App Store" src={appstore}/></a>
+                                    <a className="store-link" href="#"><img alt="Buy On App Store" src={playstore}/></a>
+                                </a>
+                            </div>
+
+                            <div className="col-sm-7" data-scroll-reveal="enter from bottom and move 100px">
+                                <img alt="App Screenshot" src={single_mobile}/>
+                            </div>
+                        </div>{/*end of row*/}
+                    </div>
+                </section>
+
+
+                <section className="duplicatable-content">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 text-center">
+                                <h1>Why Richies is <span className="clr-orange">  Chosen</span></h1>
+                            </div>
+                        </div>{/*end of row*/}
+
+                        <div className="row">
+                            <div className="col-sm-12">
+                                <div className="feature feature-icon-large">
+                                    <div className="pull-left">
+                                        <img src={why_1}/>
+                                    </div>
+                                    <div className="pull-right pd-25">
+                                        <h5>Distinct Visual Style</h5>
+                                        <p>
+                                            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                        </p>
                                     </div>
                                 </div>
-                                <div className="eight columns login-buttons">
-                                    <ul className="button-group radius right">
+                            </div>
 
-                                        <li className="header-login-button">
-                                            {/* eslint-disable-next-line */}
-                                            <a href="http://date-appp.herokuapp.com" data-reveal-id="" className="tiny secondary button radius">
-                                                <i className="icon-user hide-for-medium-down"/>
-                                                LOG IN </a>
-                                        </li>
+                            <div className="col-sm-12">
+                                <div className="feature feature-icon-large">
+                                    <img src={why_2} style={{float: 'right'}} />
+                                        <div className="pd-25">
+                                            <h5>Multiple Demos</h5>
+                                            <p>
+                                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                            </p>
+                                        </div>
 
-                                        <li className="header-register-button">
-                                           
-                                            <a href="http://date-appp.herokuapp.com" data-reveal-id="" className="tiny button radius">
-                                                <i className="icon-group hide-for-medium-down"></i>
-                                                SIGN UP </a>
-                                        </li>
+                                </div>
+                            </div>
 
+                            <div className="col-sm-12">
+                                <div className="feature feature-icon-large">
+                                    <div className="pull-left">
+                                        <img src={why_3}/>
+                                    </div>
+                                    <div className="pull-right pd-25">
+                                        <h5>Distinct Visual Style</h5>
+                                        <p>
+                                            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section className="feature-divider">
+
+                    <div className="background-image-holder" data-scroll-reveal="wait 0.2s then enter 200px from bottom over 0.3s">
+                        <img className="background-image" alt="Background Image" src="img/grey-bg.jpg"/>
+                    </div>
+
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-5">
+                                <h1>Register<span className="clr-orange"> Now </span> </h1>
+                                <a href="#"><img src={fbimg}/></a>
+                                <p className="clr-darkred">How To Register Richies <a href="#">Terms & Condition</a> <a href="#">Privacy Policy</a> </p>
+                                <a className="store-link" href="#"><img alt="Buy On App Store" src={appstore}/></a>
+                                <a className="store-link" href="#"><img alt="Buy On App Store" src={playstore}/></a>
+                            </div>
+
+                            <div className="col-sm-7" data-scroll-reveal="enter from bottom and move 100px">
+                                <img alt="App Screenshot" src={richie_screen}/>
+                            </div>
+                        </div>{/*end of row*/}
+                    </div>
+                </section>
+            </div>
+
+            <div className="footer-container">
+                <footer className="short bg-secondary-1">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-10">
+                                <img className="logo logo-light" alt="Logo" src={footerlogo} style={{width: 200+'px'}}  />
+                                    <span className="sub">© Copright 2014 Richies</span>
+                                    <ul>
+                                        <li><a href="#">Terms Of Use</a></li>
+                                        <li><a href="#">Privacy &amp; Security Statement</a></li>
+                                        <li><a href="#">Sitemap</a></li>
                                     </ul>
-                                </div>
-                                <div className="eight columns">
-                                    <div className="contain-to-grid sticky">
-                                        <nav className="top-bar">
-                                            <a href="http://date-appp.herokuapp.com" className="small-logo"><img
-                                                src={smalllogo}
-                                                height="43" alt="Richies"/></a>
-                                            <ul>
-                                                <li className="name">
-                                                    {/* eslint-disable-next-line */}
-                                                    <h1><a href="http://date-appp.herokuapp.com">Please select your page</a>
-                                                    </h1>
-                                                </li>
-                                                {/* eslint-disable-next-line */}
-                                                <li className="toggle-topbar"><a href="http://date-appp.herokuapp.com"><i className="icon-reorder"></i></a></li>
-                                            </ul>
-
-                                            <section>
-                                                <ul id="menu-sweetdate" className="left">
-                                                    {/* eslint-disable-next-line */}
-                                                    <li id="nav-menu-item-918"><a href="http://date-appp.herokuapp.com"
-                                                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item main-menu-link">Home</a>
-                                                    </li>
-                                                    {/* eslint-disable-next-line */}
-                                                    <li id="nav-menu-item-971" className="has-dropdown"><a href="http://date-appp.herokuapp.com"
-                                                                                                       className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children main-menu-link">Features</a>
-                                                        <ul className="dropdown">
-                                                            {/* eslint-disable-next-line */}
-                                                            <li id="nav-menu-item-917"><a href="http://date-appp.herokuapp.com"
-                                                                                          className="menu-item menu-item-type-post_type menu-item-object-page sub-menu-link">Blog</a>
-                                                            </li>
-                                                            {/* eslint-disable-next-line */}
-                                                            <li id="nav-menu-item-960"><a href="http://date-appp.herokuapp.com"
-                                                                                          className="menu-item menu-item-type-post_type menu-item-object-page sub-menu-link">About
-                                                                us</a>
-                                                            </li>
-                                                            <ul className="dropdown">
-                                                                {/* eslint-disable-next-line */}
-                                                                <li id="nav-menu-item-865"><a href="http://date-appp.herokuapp.com"
-                                                                                              className="menu-item menu-item-type-custom menu-item-object-custom sub-menu-link">Sample</a>
-                                                                </li>
-                                                                {/* eslint-disable-next-line */}
-                                                                <li id="nav-menu-item-866"><a href="http://date-appp.herokuapp.com"
-                                                                                              className="menu-item menu-item-type-custom menu-item-object-custom sub-menu-link">Sample
-                                                                    link</a>
-                                                                </li>
-                                                            </ul>
-                                                        </ul>
-                                                    </li>
-
-
-                                            <li id="nav-menu-item-858" className="has-dropdown">
-                                                {/* eslint-disable-next-line */}
-                                                <a
-                                                href="http://date-appp.herokuapp.com"
-                                                className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children main-menu-link">Price</a>
-                                            </li>
-                                            <li id="nav-menu-item-857" className="has-dropdown">
-                                                {/* eslint-disable-next-line */}
-                                                <a href="http://date-appp.herokuapp.com"
-                                                                                               className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children main-menu-link">Blogs</a>
-                                            </li>
-
-                                            <li id="nav-menu-item-989">
-                                                {/* eslint-disable-next-line */}
-                                                <a
-                                                href="http://date-appp.herokuapp.com"
-                                                className="menu-item menu-item-type-custom menu-item-object-custom main-menu-link">Contact</a></li>
-                                            <li id="nav-menu-item-search" className="menu-item kleo-menu-item-search">
-                                                {/* eslint-disable-next-line */}
-                                                <a
-                                                className="search-trigger" href="http://date-appp.herokuapp.com"><i className="icon icon-search"/></a>
-                                                <div className="searchHidden" id="ajax_search_container">
-                                                    {/* eslint-disable-next-line */}
-                                                    <form action="http://date-appp.herokuapp.com"
-                                                          id="ajax_searchform" method="get" className="custom">
-                                                        <div className="row collapse">
-                                                            <div className="nine columns">
-                                                                <input autocomplete="off" type="text" id="ajax_s" name="s"
-                                                                       value=""/>
-                                                            </div>
-                                                            <div className="three columns">
-                                                                <button id="kleo_ajaxsearch"
-                                                                        className="button radius small secondary expand postfix">
-                                                                    <i className="icon icon-search"></i></button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                    <div className="kleo_ajax_results"></div>
-                                                </div>
-
-
-                                            </li>
-                                                </ul>
-
-                                    </section>
-                                </nav>
                             </div>
-                        </div>
-
-                    </div>
-
-                    <div className="row just-after-header">
-                        <div className="twelve columns">
-                            <div className="row">
-                                <div className="five columns">
-
-                                    <div className="form-wrapper">
-                                        <div className="form-header">
-                                            <h4 className="white-text">
-                                                Create an Account </h4>
-                                            <p className="reg-form-details">
-                                                Registering for this site is easy, just fill in the fields below and we will
-                                                get a new account set up for you in no time. </p>
-                                        </div>
-
-                                        <form id="register_form_front"
-                                              action="http://date-appp.herokuapp.com"
-                                              method="post" className="custom form-search">
-
-                                            <div className="row">
-                                                <div className="five mobile-four columns">
-                                                    <label className="right inline">Username:</label>
-                                                </div>
-                                                <div className="seven mobile-four columns">
-                                                    <input name="signup_username" required="required" type="text"
-                                                           placeholder="Required"/>
-                                                </div>
-                                            </div>
-
-                                            <div className="row">
-                                                <div className="five mobile-four columns">
-                                                    <label className="right inline">Email Address:</label>
-                                                </div>
-                                                <div className="seven mobile-four columns">
-                                                    <input name="signup_email" type="text" required="required"
-                                                           placeholder="Required"/>
-                                                </div>
-                                            </div>
-
-                                            <div className="row">
-                                                <div className="five mobile-one columns">
-                                                    <label className="right inline">Password:</label>
-                                                </div>
-                                                <div className="three mobile-one columns">
-                                                    <input type="password" name="signup_password" required="required"
-                                                           placeholder="Required"/>
-                                                </div>
-
-                                                <div className="three mobile-one columns">
-                                                    <input type="password" name="signup_password_confirm"
-                                                           required="required" placeholder="Confirm"/>
-                                                </div>
-                                            </div>
-
-                                            <div className="row">
-                                                <div className="seven offset-by-five columns">
-                                                    <button className="button radius front-form-button"><i
-                                                        className="icon-user"></i> &nbsp;Sign Up
-                                                    </button>
-                                                    {/* eslint-disable-next-line */}
-                                                    <a href="http://date-appp.herokuapp.com" className="facebook_connect radius button facebook"><i
-                                                        className="icon-facebook"></i></a>
-                                                </div>
-                                            </div>
-                                            <span className="notch"></span>
-                                        </form>
-
-                                        <div className="form-footer">
-                                            <strong>Latest registered members</strong>
-                                            <div className="kleo_members_carousel "><p><span className="right hide-for-small">
-                                                {/* eslint-disable-next-line */}
-                                                <a
-                                                href="http://date-appp.herokuapp.com" className="profile-thumbs-prev"><i
-                                                className="icon-circle-arrow-left icon-large"></i></a>&nbsp;
-                                                {/* eslint-disable-next-line */}
-                                                <a href="http://date-appp.herokuapp.com"
-                                                                                                           className="profile-thumbs-next"><i
-                                                className="icon-circle-arrow-right icon-large"></i></a></span></p>
-                                                <div className="clearfix"></div>
-                                                <div className="carousel-profiles responsive">
-                                                    <ul className="profile-thumbs">
-                                                        <li>
-                                                            {/* eslint-disable-next-line */}
-                                                            <a href="http://date-appp.herokuapp.com"><img
-                                                                src='https://graph.facebook.com/10211329965703458/picture?width=580&amp;height=580'
-                                                                className=" user-45150-avatar avatar-94 photo" width="94"
-                                                                height="94"
-                                                                alt=""/></a></li>
-                                                        <li>
-                                                            {/* eslint-disable-next-line */}
-                                                            <a href="http://date-appp.herokuapp.com"><img
-                                                                src='https://graph.facebook.com/169429173760852/picture?width=580&amp;height=580'
-                                                                className=" user-45149-avatar avatar-94 photo" width="94"
-                                                                height="94"
-                                                                alt=""/></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="col-sm-2 text-right">
+                                <ul className="social-icons">
+                                    <li>
+                                        <a href="#">
+                                            <i className="icon social_twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="icon social_facebook"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                    </div>
-                 </div>
-             </div>
-          </header>
-    </div>
-    </body>
-
+                        </div>{/*end of row*/}
+                    </div>{/*end of container*/}
+                </footer>
+            </div>
+        </body>
     )}
     }
     export default Main;

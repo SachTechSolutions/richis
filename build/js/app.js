@@ -213,7 +213,7 @@ function videoModal() {
 				'<div id="reveal-' + id + '" class="reveal-modal video-modal xlarge">' +
 					'<div id="'+ id +'" class="kleo-video">' +
 						'<div class="central">' +
-							'<a href="#" class="videoClose"><i class="icon-off icon-2x"></i></a>' +
+							'<a href="#" class="videoClose"><i class="icons-off icons-2x"></i></a>' +
 							'<div class="videoLoad flex-video widescreen">' +
 								'<iframe src=""></iframe>' +
 							'</div>' +
@@ -570,7 +570,7 @@ jQuery.kleoAjaxSearch  =  function(options)
 					 data:values,
 					 beforeSend: function()
 					 {
-							 buton.html('<i class="icon icon-refresh icon-spin"></i>');
+							 buton.html('<i class="icons icons-refresh icons-spin"></i>');
 							 buton.attr('disabled', true);
 							 this.doingSearch = true;
 					 },
