@@ -5,7 +5,7 @@
 import React, {Component} from 'react';
 import logo from '../images/logo/logo.png';
 import footerlogo from '../images/logo/footer-logo.png';
-import backgroundImg from '../images/background.jpg';
+import backgroundimg from '../images/background.jpg';
 import appstore from '../images/icons/app-store.png';
 import playstore from '../images/icons/google-play.png';
 import fbimg from '../images/icons/login_button_a.png';
@@ -69,7 +69,7 @@ class Main extends Component {
             <div className="main-container">
                 <header className="fullscreen-element no-pad centered-text">
                     <div className="background-image-holder parallax-background">
-                        <img className="background-image" alt="Background" src={backgroundImg}/>
+                        <img className="background-image" alt="Background" src={backgroundimg}/>
                     </div>
 
                     <div className="container align-vertical" >
