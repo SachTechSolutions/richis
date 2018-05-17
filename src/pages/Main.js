@@ -28,7 +28,7 @@ import why_2 from '../images/why-choose/why2.jpg';
 import why_3 from '../images/why-choose/why3.png';
 
 
-class Main extends React.Component {
+class Main extends Component {
     render() {
         return (
         <body>
@@ -45,20 +45,20 @@ class Main extends React.Component {
 
                             <div className="col-sm-9 col-md-10 columns">
                                 <ul className="menu">
-                                    <li className=""><a href="#">Happy Report</a>
+                                    <li className=""><a href="https://date-app.herokuapp.com">Happy Report</a>
                                     </li>
-                                    <li className=""><a href="#">Richies Collumn</a>
+                                    <li className=""><a href="https://date-app.herokuapp.com">Richies Collumn</a>
                                     </li>
-                                    <li className=""><a  href="#">Price</a>
+                                    <li className=""><a  href="https://date-app.herokuapp.com">Price</a>
                                     </li>
-                                    <li className=""><a href="#">Events</a>
+                                    <li className=""><a href="https://date-app.herokuapp.com">Events</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div className="mobile-toggle">
-                            <i className="icon icon_menu"></i>
+                            <i className="icon icon_menu"/>
                         </div>
 
                     </div>
@@ -69,7 +69,7 @@ class Main extends React.Component {
             <div className="main-container">
                 <header className="fullscreen-element no-pad centered-text">
                     <div className="background-image-holder parallax-background">
-                        <img className="background-image" alt="Background Image" src={backgroundImg}/>
+                        <img className="background-image" alt="Background" src={backgroundImg}/>
                     </div>
 
                     <div className="container align-vertical" >
@@ -78,14 +78,14 @@ class Main extends React.Component {
                                 <h1 className="alt-font clr-darkred" >Welcome To <span className="clr-orange"> Richies </span></h1>
                                 <p className="clr-darkred">There is only one happiness in this life, to love and be loved.</p>
                                 <p className="lead clr-darkred">Tons of elements, Consistent style, Variant builder included.</p>
-                                <img src={richie_screen} />
+                                <img src={richie_screen} alt="screen"/>
                             </div>
                             <div className="col-md-6 text-center pd-80">
-                                <img src={couple}/>
-                                    <p className="clr-darkred">How To Register Richies <a href="#">Terms & Condition</a> <a href="#">Privacy Policy</a> </p>
-                                    <a href="."><img src={fbimg}/></a>
-                                    <a className="store-link" href="."><img src={playstore}/></a>
-                                    <a className="store-link" href="."><img src={appstore}/></a>
+                                <img src={couple} alt="couple"/>
+                                    <p className="clr-darkred">How To Register Richies <a href="https://date-app.herokuapp.com">Terms & Condition</a> <a href="https://date-app.herokuapp.com">Privacy Policy</a> </p>
+                                    <a href="."><img src={fbimg} alt="facebookico"/></a>
+                                    <a className="store-link" href="."><img src={playstore} alt="playstore"/></a>
+                                    <a className="store-link" href="."><img src={appstore} alt="appstore"/></a>
                             </div>
 
                         </div>{/* end of row */}
@@ -108,7 +108,7 @@ class Main extends React.Component {
 
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner">
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <img alt="Blog Preview" src={related_1}/>
                                         </a>
                                         <div className="post-title">
@@ -117,7 +117,7 @@ class Main extends React.Component {
                                                 <span className="sub alt-font">Posted on June 16th</span>
                                                 <span className="sub alt-font">4 Minute Read</span>
                                             </div>
-                                            <a href="#" className="link-text">Read More</a>
+                                            <a href="https://date-app.herokuapp.com" className="link-text">Read More</a>
                                         </div>
                                     </div>
                                 </div>{/* end of individual post */}
@@ -125,7 +125,7 @@ class Main extends React.Component {
 
                                 <div className="col-md-4 col-sm-6 blog-masonry-item development">
                                     <div className="item-inner">
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <img alt="Blog Preview" src={related_2} />
                                         </a>
                                         <div className="post-title">
@@ -134,14 +134,14 @@ class Main extends React.Component {
                                                 <span className="sub alt-font">Posted on June 13th</span>
                                                 <span className="sub alt-font">4 Minute Read</span>
                                             </div>
-                                            <a href="#" className="link-text">Read More</a>
+                                            <a href="https://date-app.herokuapp.com" className="link-text">Read More</a>
                                         </div>
                                     </div>
                                 </div>{/* end of individual post */}
 
                                 <div className="col-md-4 col-sm-6 blog-masonry-item print">
                                     <div className="item-inner">
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <img alt="Blog Preview" src={related_3}/>
                                         </a>
                                         <div className="post-title">
@@ -150,14 +150,14 @@ class Main extends React.Component {
                                                 <span className="sub alt-font">Posted on June 11th</span>
                                                 <span className="sub alt-font">4 Minute Read</span>
                                             </div>
-                                            <a href="#" className="link-text">Read More</a>
+                                            <a href="https://date-app.herokuapp.com" className="link-text">Read More</a>
                                         </div>
                                     </div>
                                 </div>{/* end of individual post */}
 
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner">
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <img alt="Blog Preview" src={related_4} />
                                         </a>
                                         <div className="post-title">
@@ -166,14 +166,14 @@ class Main extends React.Component {
                                                 <span className="sub alt-font">Posted on June 8th</span>
                                                 <span className="sub alt-font">2 Minute Read</span>
                                             </div>
-                                            <a href="#" className="link-text">Read More</a>
+                                            <a href="https://date-app.herokuapp.com" className="link-text">Read More</a>
                                         </div>
                                     </div>
                                 </div>{/* end of individual post */}
 
                                 <div className="col-md-4 col-sm-6 blog-masonry-item print">
                                     <div className="item-inner">
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <img alt="Blog Preview" src={related_5}/>
                                         </a>
                                         <div className="post-title">
@@ -182,14 +182,14 @@ class Main extends React.Component {
                                                 <span className="sub alt-font">Posted on June 11th</span>
                                                 <span className="sub alt-font">4 Minute Read</span>
                                             </div>
-                                            <a href="#" className="link-text">Read More</a>
+                                            <a href="https://date-app.herokuapp.com" className="link-text">Read More</a>
                                         </div>
                                     </div>
                                 </div>{/* end of individual post */}
 
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner">
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <img alt="Blog Preview" src={related_6}/>
                                         </a>
                                         <div className="post-title">
@@ -198,7 +198,7 @@ class Main extends React.Component {
                                                 <span className="sub alt-font">Posted on June 8th</span>
                                                 <span className="sub alt-font">2 Minute Read</span>
                                             </div>
-                                            <a href="#" className="link-text">Read More</a>
+                                            <a href="https://date-app.herokuapp.com" className="link-text">Read More</a>
                                         </div>
                                     </div>
                                 </div>{/* end of individual post */}
@@ -220,23 +220,23 @@ class Main extends React.Component {
                         <div className="row">
                             <div className="col-md-4 col-sm-6">
                                 <div className="feature feature-icon-large">
-                                    <img src={choise_1}/>
+                                    <img src={choise_1} alt="what choose"/>
                                         <h3>1.Consistent Typography</h3>
 
                                 </div>
                             </div>
 
                             <div className="col-md-4 col-sm-6">
-                                <div className="feature  feature-icon-large">
-                                    <img src={choise_2}/>
+                                <div className="feature feature-icon-large">
+                                    <img src={choise_2} alt="what choose"/>
                                         <h3>2. Varied Element Set</h3>
 
                                 </div>
                             </div>
 
                             <div className="col-md-4 col-sm-6">
-                                <div className="feature  feature-icon-large">
-                                    <img src={choise_3}/>
+                                <div className="feature feature-icon-large">
+                                    <img src={choise_3} alt="what choose"/>
                                         <h3>3. Variant Builder</h3>
 
                                 </div>
@@ -244,7 +244,7 @@ class Main extends React.Component {
 
                             <div className="col-md-6 col-sm-6">
                                 <div className="feature feature-icon-large">
-                                    <img src={choise_4}/>
+                                    <img src={choise_4} alt="what choose"/>
                                         <h3>4. Consistent Typography</h3>
 
                                 </div>
@@ -252,7 +252,7 @@ class Main extends React.Component {
 
                             <div className="col-md-6 col-sm-6">
                                 <div className="feature feature-icon-large">
-                                    <img src={choise_5}/>
+                                    <img src={choise_5} alt="what choose"/>
                                         <h3>5. Varied Element Set</h3>
 
                                 </div>
@@ -264,19 +264,19 @@ class Main extends React.Component {
                 <section className="feature-divider">
 
                     <div className="background-image-holder" data-scroll-reveal="wait 0.2s then enter 200px from bottom over 0.3s">
-                        <img className="background-image" alt="Background Image" src="img/grey-bg.jpg"/>
+                        <img className="background-image" alt="Background" src="img/grey-bg.jpg"/>
                     </div>
 
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-5">
                                 <h1>How To <span className="clr-orange">Register </span></h1>
-							    <a href='#'>
-							    <img src={fbimg}/>
-                                    <p className="clr-darkred">How To Register Richies <a href='#'>Terms & Condition</a>
-                                    <a href="#">Privacy Policy</a> </p>
-                                    <a className="store-link" href="#"><img alt="Buy On App Store" src={appstore}/></a>
-                                    <a className="store-link" href="#"><img alt="Buy On App Store" src={playstore}/></a>
+							    <a href='https://date-app.herokuapp.com'>
+							    <img src={fbimg} alt="fbico"/>
+                                    <p className="clr-darkred">How To Register Richies <a href='https://date-app.herokuapp.com'>Terms & Condition</a>
+                                    <a href="https://date-app.herokuapp.com">Privacy Policy</a> </p>
+                                    <a className="store-link" href="https://date-app.herokuapp.com"><img alt="Buy On App Store" src={appstore}/></a>
+                                    <a className="store-link" href="https://date-app.herokuapp.com"><img alt="Buy On App Store" src={playstore}/></a>
                                 </a>
                             </div>
 
@@ -300,7 +300,7 @@ class Main extends React.Component {
                             <div className="col-sm-12">
                                 <div className="feature feature-icon-large">
                                     <div className="pull-left">
-                                        <img src={why_1}/>
+                                        <img src={why_1} alt="why choose"/>
                                     </div>
                                     <div className="pull-right pd-25">
                                         <h5>Distinct Visual Style</h5>
@@ -315,7 +315,7 @@ class Main extends React.Component {
 
                             <div className="col-sm-12">
                                 <div className="feature feature-icon-large">
-                                    <img src={why_2} style={{float: 'right'}} />
+                                    <img src={why_2} alt="why choose" style={{float: 'right'}} />
                                         <div className="pd-25">
                                             <h5>Multiple Demos</h5>
                                             <p>
@@ -331,7 +331,7 @@ class Main extends React.Component {
                             <div className="col-sm-12">
                                 <div className="feature feature-icon-large">
                                     <div className="pull-left">
-                                        <img src={why_3}/>
+                                        <img src={why_3} alt="why choose"/>
                                     </div>
                                     <div className="pull-right pd-25">
                                         <h5>Distinct Visual Style</h5>
@@ -351,17 +351,17 @@ class Main extends React.Component {
                 <section className="feature-divider">
 
                     <div className="background-image-holder" data-scroll-reveal="wait 0.2s then enter 200px from bottom over 0.3s">
-                        <img className="background-image" alt="Background Image" src="img/grey-bg.jpg"/>
+                        <img className="background-image" alt="Background" src="img/grey-bg.jpg"/>
                     </div>
 
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-5">
                                 <h1>Register<span className="clr-orange"> Now </span> </h1>
-                                <a href="#"><img src={fbimg}/></a>
-                                <p className="clr-darkred">How To Register Richies <a href="#">Terms & Condition</a> <a href="#">Privacy Policy</a> </p>
-                                <a className="store-link" href="#"><img alt="Buy On App Store" src={appstore}/></a>
-                                <a className="store-link" href="#"><img alt="Buy On App Store" src={playstore}/></a>
+                                <a href="https://date-app.herokuapp.com"><img src={fbimg} alt="fbico"/></a>
+                                <p className="clr-darkred">How To Register Richies <a href="https://date-app.herokuapp.com">Terms & Condition</a> <a href="https://date-app.herokuapp.com">Privacy Policy</a> </p>
+                                <a className="store-link" href="https://date-app.herokuapp.com"><img alt="Buy On App Store" src={appstore}/></a>
+                                <a className="store-link" href="https://date-app.herokuapp.com"><img alt="Buy On App Store" src={playstore}/></a>
                             </div>
 
                             <div className="col-sm-7" data-scroll-reveal="enter from bottom and move 100px">
@@ -380,20 +380,20 @@ class Main extends React.Component {
                                 <img className="logo logo-light" alt="Logo" src={footerlogo} style={{width: 200+'px'}}  />
                                     <span className="sub">© Copright 2014 Richies</span>
                                     <ul>
-                                        <li><a href="#">Terms Of Use</a></li>
-                                        <li><a href="#">Privacy &amp; Security Statement</a></li>
-                                        <li><a href="#">Sitemap</a></li>
+                                        <li><a href="https://date-app.herokuapp.com">Terms Of Use</a></li>
+                                        <li><a href="https://date-app.herokuapp.com">Privacy &amp; Security Statement</a></li>
+                                        <li><a href="https://date-app.herokuapp.com">Sitemap</a></li>
                                     </ul>
                             </div>
                             <div className="col-sm-2 text-right">
                                 <ul className="social-icons">
                                     <li>
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <i className="icon social_twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://date-app.herokuapp.com">
                                             <i className="icon social_facebook"></i>
                                         </a>
                                     </li>

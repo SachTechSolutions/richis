@@ -4,6 +4,7 @@
   ],
   "rules": {
     "react/prop-types": 0,
-    "no-script-url": 0
+    "no-script-url": 0,
+    "eslint-plugin-jsx-a11y":"off"
   }
 }
