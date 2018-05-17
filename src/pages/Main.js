@@ -3,7 +3,7 @@
  */
 
 import React, {Component} from 'react';
-import backgroundimg from '../images/background.jpg';
+import backgroundimg from '../images/bg.jpg';
 import logo from '../images/logo/logo.png';
 import footerlogo from '../images/logo/footer-logo.png';
 import appstore from '../images/icons/app-store.png';
@@ -69,7 +69,7 @@ class Main extends Component {
             <div className="main-container">
                 <header className="fullscreen-element no-pad centered-text">
                     <div className="background-image-holder parallax-background">
-                        <img className="background-image" alt="Background" src={backgroundimg}/>
+                        <img className="background-image" alt="bg" src={backgroundimg}/>
                     </div>
 
                     <div className="container align-vertical" >
