@@ -451,7 +451,7 @@ nav hr {
   bottom: 20px !important;
 }
 .nav-menu {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .nav-menu .social-icons {
   float: right;
@@ -480,7 +480,7 @@ nav hr {
 }
 .overlay-bar {
   background: rgba(255,255,255,0.3);
-  box-shadow: 0px 0px 120px 0px white;
+  box-shadow: 0px 0px 130px 0px white;
 }
 .overlay-bar .has-dropdown:after {
   color: #fff;
@@ -2837,11 +2837,15 @@ footer.short-2 .contact-action:hover {
     -moz-transition: all .5s ease;
     transition: all .5s ease;
   }
+  .nav-menu {
+    padding-top: 0px;
+  }
   nav .logo {
     margin-bottom: 32px;
   }
   nav .columns {
     width: 100%;
+    background: transparent;
   }
   nav .social-icons {
     display: none;
@@ -2865,9 +2869,7 @@ footer.short-2 .contact-action:hover {
     cursor: pointer;
     color: #333333;
   }
-  .overlay-bar {
-    background: rgba(255, 255, 255, 0.9);
-  }
+
   .overlay-bar .logo-light {
     display: none;
   }
