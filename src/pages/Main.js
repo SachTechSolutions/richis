@@ -5,6 +5,7 @@
 import React, {Component} from 'react';
 import backgroundimg from '../images/bg.jpg';
 import logo from '../images/logo/logo.png';
+import mobilelogo from '../images/logo/mobilelogo.png';
 import footerlogo from '../images/logo/footer-logo.png';
 import appstore from '../images/icons/app-store.png';
 import playstore from '../images/icons/google-play.png';
@@ -39,7 +40,7 @@ class Main extends Component {
                             <div className="col-sm-3 col-md-2 columns">
                                 <a href="index.html">
                                     <img className="logo logo-light" alt="Logo" src={logo}/>
-                                    <img className="logo logo-dark" alt="Logo" src={logo}/>
+                                    <img className="logo logo-dark" alt="Logo" src={mobilelogo}/>
                                 </a>
                             </div>
 

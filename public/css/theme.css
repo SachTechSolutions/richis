@@ -2848,9 +2848,6 @@ footer.short-2 .contact-action:hover {
   .open-nav {
     max-height: 8000px;
   }
-  .nav-menu {
-    padding-top: 24px;
-  }
   .top-bar .logo {
     bottom: 0px;
   }
@@ -3143,6 +3140,12 @@ footer.short-2 .contact-action:hover {
   }
   .instafeed ul li {
     width: 25%;
+  }
+  .pd-80 {
+    padding-top: 0px!important;
+  }
+  .store-link img {
+    height: 100%!important;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -4326,9 +4329,7 @@ footer.short-2 .contact-action:hover {
     font-size: 18px;
     line-height: 26px;
   }
-  .fullscreen-element .align-vertical {
-    padding-top: 80px !important;
-  }
+
 }
 .product-action {
   height: auto;
