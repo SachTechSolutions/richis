@@ -44,7 +44,7 @@ class Main extends Component {
                                 </a>
                             </div>
 
-                            <div className="col-sm-9 col-md-10 columns">
+                            <div className="col-sm-9 col-md-10 columns mobile-view">
                                 <ul className="menu">
                                     <li className=""><a href="https://date-app.herokuapp.com">Happy Report</a>
                                     </li>
