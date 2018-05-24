@@ -479,6 +479,8 @@ nav hr {
   padding: 0px 8px;
 }
 .overlay-bar {
+  background: rgba(255,255,255,0.3);
+  box-shadow: 0px 0px 130px 0px white;
 }
 .overlay-bar .has-dropdown:after {
   color: #fff;
@@ -2849,7 +2851,7 @@ footer.short-2 .contact-action:hover {
     padding-top: 0px;
   }
   .mobile-view{
-    background:#FFDBD3!important;
+    background: #FFE8E3 !important;
     margin-top: 0px;
   }
   nav .columns {
