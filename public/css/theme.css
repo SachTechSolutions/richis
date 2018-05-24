@@ -2856,8 +2856,8 @@ footer.short-2 .contact-action:hover {
   }
   nav .columns {
     width: 100%;
-    background: transparent;
-    padding-top: 5px;
+    background: #FEC8BE;
+    padding-top: 2px;
   }
   nav .social-icons {
     display: none;
