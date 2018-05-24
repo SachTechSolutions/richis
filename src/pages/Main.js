@@ -49,7 +49,7 @@ class Main extends Component {
                                 <ul className="menu">
                                     <li className=""><a href="https://date-app.herokuapp.com">Happy Report</a>
                                     </li>
-                                    <li className=""><a href="https://date-app.herokuapp.com">Richies Collumn</a>
+                                    <li className=""><a href="https://date-app.herokuapp.com">Richies Column</a>
                                     </li>
                                     <li className=""><a  href="https://date-app.herokuapp.com">Price</a>
                                     </li>
