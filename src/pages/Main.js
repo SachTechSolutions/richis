@@ -11,6 +11,7 @@ import appstore from '../images/icons/app-store.png';
 import playstore from '../images/icons/google-play.png';
 import fbimg from '../images/icons/login_button_a.png';
 import couple from '../images/couple.png';
+import couple_mobile from '../images/mobile_couple.png';
 import richie_screen from '../images/richies-screen.png';
 import single_mobile from '../images/register-mobile.png';
 import related_1 from '../images/related-news/01.jpg';
@@ -79,10 +80,11 @@ class Main extends Component {
                                 <h1 className="alt-font clr-darkred" >Welcome To <span className="clr-orange"> Richies </span></h1>
                                 <p className="clr-darkred">There is only one happiness in this life, to love and be loved.</p>
                                 <p className="lead clr-darkred">Tons of elements, Consistent style, Variant builder included.</p>
-                                <img src={richie_screen} alt="screen"/>
+                                <img src={richie_screen} className="richie_screen" alt="screen"/>
                             </div>
                             <div className="col-md-6 text-center pd-80">
-                                <img src={couple} alt="couplee"/>
+                                <img src={couple} className="main-couple" alt="couplee"/>
+                                <img src={couple_mobile} className="mobile-couple" alt="couplee"/>
                                     <p className="clr-darkred">How To Register Richies <a href="https://date-app.herokuapp.com">Terms & Condition</a> <a href="https://date-app.herokuapp.com">Privacy Policy</a> </p>
                                     <a href="."><img src={fbimg} alt="facebookico"/></a>
                                     <a className="store-link" href="."><img src={playstore} alt="playstore"/></a>
