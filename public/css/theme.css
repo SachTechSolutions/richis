@@ -2858,6 +2858,7 @@ footer.short-2 .contact-action:hover {
     width: 100%;
     background: #FFD5CC;
     padding-top: 2px;
+    border-bottom: 1px solid rosybrown;
   }
   nav .social-icons {
     display: none;
