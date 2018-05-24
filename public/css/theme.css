@@ -2856,7 +2856,7 @@ footer.short-2 .contact-action:hover {
   }
   nav .columns {
     width: 100%;
-    background: #FEC8BE;
+    background: #FFD3CA;
     padding-top: 2px;
   }
   nav .social-icons {
@@ -3165,6 +3165,12 @@ footer.short-2 .contact-action:hover {
   }
   .richie_screen{
     display:none;
+  }
+  .feature-icon-large .pull-left {
+    width: 100%;
+  }
+  .feature-icon-large .pull-right {
+    width: 100%;
   }
 }
 
