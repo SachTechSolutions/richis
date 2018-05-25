@@ -1,11 +1,8 @@
 /**
  * Created by SachTech on 28-04-2018.
  */
-
 import React, {Component} from 'react';
 import backgroundimg from '../images/bg.jpg';
-import logo from '../images/logo/logo.png';
-import mobilelogo from '../images/logo/mobilelogo.png';
 import footerlogo from '../images/logo/footer-logo.png';
 import appstore from '../images/icons/app-store.png';
 import playstore from '../images/icons/google-play.png';
@@ -34,39 +31,6 @@ class Main extends Component {
     render() {
         return (
         <body>
-            <div className="nav-container">
-                <nav className="top-bar overlay-bar">
-                    <div className="container">
-                        <div className="row nav-menu">
-                            <div className="col-sm-3 col-md-2 columns">
-                                <a href="index.html">
-                                    <img className="logo logo-light" alt="Logo" src={logo}/>
-                                    <img className="logo logo-dark" alt="Logo" src={mobilelogo}/>
-                                </a>
-                            </div>
-
-                            <div className="col-sm-9 col-md-10 columns mobile-view">
-                                <ul className="menu">
-                                    <li className=""><a href="https://date-app.herokuapp.com">Happy Report</a>
-                                    </li>
-                                    <li className=""><a href="https://date-app.herokuapp.com">Richies Column</a>
-                                    </li>
-                                    <li className=""><a  href="https://date-app.herokuapp.com">Price</a>
-                                    </li>
-                                    <li className=""><a href="https://date-app.herokuapp.com">Events</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="mobile-toggle">
-                            <i className="icon icon_menu"/>
-                        </div>
-
-                    </div>
-                    {/* end of container */}
-                </nav>
-            </div>
 
             <div className="main-container">
                 <header className="fullscreen-element no-pad centered-text">

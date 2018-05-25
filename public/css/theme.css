@@ -2882,7 +2882,11 @@ footer.short-2 .contact-action:hover {
     cursor: pointer;
     color: #333333;
   }
-
+  .breadcrumb-style{
+    color:#720D05;
+    font-weight: bold;
+    font-size: 50px;
+  }
   .overlay-bar .logo-light {
     display: none;
   }
