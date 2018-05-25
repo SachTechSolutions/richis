@@ -27,7 +27,7 @@ class Events extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 text-center">
-                                <h1 className="text-white">Richies <span className="breadcrumb-style">Events</span></h1>
+                                <h1 className="clr-darkred">Richies <span className="breadcrumb-style">Events</span></h1>
 
                             </div>
                         </div>

@@ -4,6 +4,9 @@
 .bg-secondary-1 {
   background-color: #202020 !important;
 }
+.bg-secondary-15 {
+  background-color: #2C3E50 !important;
+}
 .bg-secondary-2 {
   background-color: #3498db !important;
 }
@@ -786,8 +789,7 @@ header .btn:last-child {
 }
 .page-header {
   margin: 0px;
-  padding: 0px;
-  padding: 120px 0px;
+  padding: 105px 0px;
   border-bottom: none;
 }
 .page-header h1 {
@@ -803,9 +805,9 @@ header .btn:last-child {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.3;
+  opacity: 0;
   z-index: 2;
-  background-color: #333333;
+  background:rgba(0,0,0,0);
 }
 .page-header .background-image-holder {
   height: 150%;

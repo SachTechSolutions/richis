@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from '.././src/pages/Main';
 import Events from '.././src/pages/Events';
+import Price from '.././src/pages/Price';
 import logo from '.././src/images/logo/logo.png';
 import mobilelogo from '.././src/images/logo/mobilelogo.png';
 class App extends Component {
@@ -23,12 +24,11 @@ class App extends Component {
 
                                     <div className="col-sm-9 col-md-10 columns mobile-view">
                                         <ul className="menu">
-                                            <li className=""><a href="https://date-app.herokuapp.com">Happy Report</a>
+                                            <li className=""><a href=".">Happy Report</a>
                                             </li>
-                                            <li className=""><a href="https://date-app.herokuapp.com">Richies Column</a>
+                                            <li className=""><a href=".">Richies Column</a>
                                             </li>
-                                            <li className=""><a  href="https://date-app.herokuapp.com">Price</a>
-                                            </li>
+                                            <li><Link to={'/Price'}>Price</Link></li>
                                             <li><Link to={'/Events'}>Events</Link></li>
                                         </ul>
                                     </div>
@@ -45,6 +45,7 @@ class App extends Component {
 
 
                     <Switch>
+                        <Route exact path='/Price' component={Price} />
                         <Route exact path='/Events' component={Events} />
                         <Route exact path='/' component={Home} />
                     </Switch>
