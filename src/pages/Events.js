@@ -21,7 +21,7 @@ class Events extends Component {
             <div className="main-container">
                 <header className="page-header">
                     <div className="background-image-holder parallax-background">
-                        <img className="background-image" alt="Background Image" src={breadcrumb_img}/>
+                        <img className="background-image" alt="Breadcrumb" src={breadcrumb_img}/>
                     </div>
 
                     <div className="container">
@@ -43,7 +43,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_1}/>
+                                            <img alt="First Event" src={event_1}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -53,7 +53,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -64,7 +64,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_2}/>
+                                            <img alt="Second Event" src={event_2}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -74,7 +74,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -84,7 +84,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_3}/>
+                                            <img alt="Third Event" src={event_3}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -94,7 +94,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -104,7 +104,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_4}/>
+                                            <img alt="Fourth Event" src={event_4}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -114,7 +114,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -124,7 +124,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_5}/>
+                                            <img alt="Fifth Event" src={event_5}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -134,7 +134,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -144,7 +144,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_1}/>
+                                            <img alt="Sixth Event" src={event_1}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -154,7 +154,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -165,7 +165,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_2}/>
+                                            <img alt="Seventh Event" src={event_2}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -175,7 +175,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -185,7 +185,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_3}/>
+                                            <img alt="Eighth event" src={event_3}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -195,7 +195,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
@@ -205,7 +205,7 @@ class Events extends Component {
                                 <div className="col-md-4 col-sm-6 blog-masonry-item branding">
                                     <div className="item-inner ">
                                         <a href="blog-single.html">
-                                            <img alt="Blog Preview" src={event_4}/>
+                                            <img alt="Ninth Event" src={event_4}/>
                                         </a>
                                         <div className="post-title">
                                             <h2>Richies Premium Fly Dating</h2>
@@ -215,7 +215,7 @@ class Events extends Component {
                                                 <span className="sub alt-font">Date: December 22, 2017 (Friday)</span>
                                             </div>
                                             <p>
-                                                <a href="#" className="link-text">Holding time: 19: 00-21: 00</a>
+                                                <a href="." className="link-text">Holding time: 19: 00-21: 00</a>
                                             </p>
 
                                         </div>
