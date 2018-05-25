@@ -20,7 +20,7 @@ class Price extends Component {
             <div className="main-container">
                 <header className="page-header">
                     <div className="background-image-holder parallax-background">
-                        <img className="background-image" alt="Background Image" src={header_love}/>
+                        <img className="background-image" alt="Background" src={header_love}/>
                     </div>
                     <div className="container">
                         <div className="row">
@@ -50,7 +50,7 @@ class Price extends Component {
 
                             <div className="col-md-4 col-sm-12">
                                 <div className="inline-video-wrapper">
-                                    <img src={event_mobile}/>
+                                    <img src={event_mobile} alt="event"/>
                                 </div>
                             </div>
                         </div>
