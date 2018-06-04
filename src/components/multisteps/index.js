@@ -116,7 +116,7 @@ export default class MultiStep extends React.Component {
 
                             </div>
                             <input style={this.state.showNextBtn ? {} : {display: 'none'}}
-                                   onClick={this.next} type="button" name="next" className="next action-button" value="Next"/>
+                                   onClick={this.next} type="button" name="next" className="next action-button next-b" value="Next"/>
                             </fieldset>
                         </form>
                     </div>

@@ -47,6 +47,9 @@ body {
     text-align: center;
     font-size: 13px;
 }
+.next-b{
+    float: right;
+}
 #msform .action-button {
     background: #D11029CC;
     font-weight: bold;
