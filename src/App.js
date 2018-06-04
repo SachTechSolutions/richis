@@ -3,8 +3,10 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from '.././src/pages/Main';
 import Events from '.././src/pages/Events';
 import Price from '.././src/pages/Price';
+import BasicRegister from '.././src/pages/BasicRegister';
 import logo from '.././src/images/logo/logo.png';
 import mobilelogo from '.././src/images/logo/mobilelogo.png';
+import DetailRegister from "./pages/DetailRegister";
 class App extends Component {
     render() {
         return (
@@ -30,6 +32,7 @@ class App extends Component {
                                             </li>
                                             <li><Link to={'/Price'}>Price</Link></li>
                                             <li><Link to={'/Events'}>Events</Link></li>
+                                            <li><Link to={'/BasicRegister'}>Register</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -45,6 +48,8 @@ class App extends Component {
 
 
                     <Switch>
+                        <Route exact path='/BasicRegister' component={BasicRegister} />
+                        <Route exact path='/DetailRegister' component={DetailRegister} />
                         <Route exact path='/Price' component={Price} />
                         <Route exact path='/Events' component={Events} />
                         <Route exact path='/' component={Home} />

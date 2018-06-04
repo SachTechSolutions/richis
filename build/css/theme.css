@@ -212,6 +212,7 @@ span.text-white a {
   -moz-transition: all .5s ease;
   transition: all .5s ease;
   opacity: 1;
+  display: none;
 }
 .spinner {
   width: 40px;
