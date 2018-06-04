@@ -1,4 +1,4 @@
-'use strict'
+
 import React from 'react'
 import whitelogo from '../../images/logo/whitelogo.png';
 

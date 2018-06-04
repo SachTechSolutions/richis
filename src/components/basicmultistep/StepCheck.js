@@ -1,7 +1,7 @@
-'use strict'
+
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-export class StepCheck extends React.Component {
+import { Link } from 'react-router-dom';
+export class StepCheck extends Component {
 
     render() {
         return (

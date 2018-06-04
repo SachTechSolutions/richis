@@ -3,7 +3,6 @@
  */
 
 import React, {Component} from 'react';
-import loader from '../images/loader.gif';
 import {steps} from "../components/detailmultistep";
 import MultiStep from '../components/multisteps/index'
 
