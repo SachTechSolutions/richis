@@ -41,7 +41,7 @@ ol.progtrckr li.progtrckr-doing {
   font-weight: bold;
 }
 ol.progtrckr li.progtrckr-done {
-  color: black;
+  color: white;
   border-bottom: 4px solid #bc2135;
 }
 ol.progtrckr li:after {
