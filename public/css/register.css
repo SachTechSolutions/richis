@@ -22,6 +22,7 @@ body {
 .logo-part {
     width: 20%;
     float: right;
+    margin-top: -15px;
 }
 #msform fieldset:not(:first-of-type) {
     display: none;
