@@ -19,8 +19,9 @@ body {
     overflow-x: auto;
     overflow-x: hidden;
 }
-.logo-part{
-    width: 20%;float: right;
+.logo-part {
+    width: 20%;
+    float: right;
 }
 #msform fieldset:not(:first-of-type) {
     display: none;
@@ -279,12 +280,25 @@ label {
     #progressbar li::before {
         width: 35px!important;
     }
-    ol.progtrckr li {
-        padding: 3px;
+    .progtrckr{
+        display: none;
     }
     .btn{
         font-size: 1.3rem !important;
         white-space: pre-wrap;
+    }
+    #msform .action-button{
+        padding: 8px 5px;
+        border-radius: 4px;
+    }
+    .btn-rounded{
+        border-radius: 4px;
+    }
+    #msform fieldset{
+        border-radius: 0px;
+    }
+    #charector input {
+        width: 40% !important;
     }
 }
 .top-bar{

@@ -9,8 +9,9 @@ export class StepOne extends React.Component {
             <div>
 
                 <h2 className="fs-title">Create your account <small>(basic registration)</small>
-                    <img src={whitelogo} alt="white logo" className="pb-3 logo-part"/>
+
                 </h2>
+                <img src={whitelogo} alt="white logo" className="pb-3 logo-part"/>
 
                 <h3 className="fs-subtitle">What is your height?</h3>
                 <div className="row">

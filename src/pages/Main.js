@@ -180,7 +180,7 @@ class Main extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 text-center">
-                                <h1>What We Choose <span className="clr-orange">Richies</span></h1>
+                                <h1>Why We Choose <span className="clr-orange">Richies</span></h1>
                             </div>
                         </div>{/*end of row*/}
 

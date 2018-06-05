@@ -2855,7 +2855,10 @@ footer.short-2 .contact-action:hover {
   }
   .mobile-view{
     background: #FFE8E3 !important;
-    margin-top: 0px;
+    margin-top: 13px;
+  }
+  section h1 {
+    width: 275px;
   }
   nav .columns {
     width: 100%;
