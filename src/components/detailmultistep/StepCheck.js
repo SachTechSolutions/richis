@@ -27,7 +27,7 @@ export class StepCheck extends React.Component {
 
                         </div>
                     </div>
-                    <Link to={'/'} type="button" name="next" className="next action-button btn-n next-step" >Create An Account</Link>
+                    <Link to={'/'} type="button" name="next" className="next action-button btn-n next-step" >Done</Link>
                 </div>
 
 

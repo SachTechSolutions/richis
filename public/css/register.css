@@ -67,7 +67,7 @@ body {
 }
 
 .fs-title {
-    font-size: 15px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 10px;
@@ -270,11 +270,21 @@ label {
     left: 0%; opacity: 1;overflow-y: scroll;height: 480px;
 }
 @media screen and (max-width: 768px) {
+    body{
+        background-size: inherit;
+    }
     #msform fieldset{
         position: inherit!important;
     }
     #progressbar li::before {
         width: 35px!important;
+    }
+    ol.progtrckr li {
+        padding: 3px;
+    }
+    .btn{
+        font-size: 1.3rem !important;
+        white-space: pre-wrap;
     }
 }
 .top-bar{
