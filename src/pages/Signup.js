@@ -12,7 +12,7 @@ class Signup extends Component {
                        <h2 class="text-white">Welcome to RICHIES</h2>
                         <fieldset>
                             <h2 class="fs-title">Create your account <small>(basic registration)</small>
-                                <img src={whitelogo} class="pb-3 logo-part"/>
+                                <img src={whitelogo} class="pb-3 logo-part" alt="singup"/>
                             </h2>
         
                             
