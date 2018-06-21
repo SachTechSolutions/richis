@@ -9,13 +9,13 @@ import { StepCheck } from './StepCheck'
 
 const steps = 
     [
-      {name: 'Height', component: <StepOne/>},
-      {name: 'Body Type', component: <StepTwo/>},
-      {name: 'Residence', component: <StepThree/>},
-      {name: 'Occupation', component: <StepFour/>},
-      {name: 'Annual Income', component: <StepFive/>},
-      {name: 'Tabacco', component: <StepSix/>},
-      {name: 'step check', component: <StepCheck/>}
+        {name: 'Occupation', component: <StepFour/>},
+        {name: 'Height', component: <StepOne/>},
+        {name: 'Residence', component: <StepThree/>},
+        {name: 'Tabacco', component: <StepSix/>},
+        {name: 'Annual Income', component: <StepFive/>},
+        {name: 'Body Type', component: <StepTwo/>},
+        {name: 'step check', component: <StepCheck/>}
     ]
 
 export { steps }

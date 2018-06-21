@@ -32,7 +32,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-bottom: 10px;
-    width: 45%!important;
+    width: 100%!important;
     box-sizing: border-box;
     color: #2C3E50;
     font-size: 13px;
@@ -300,6 +300,7 @@ label {
     }
     #charector input {
         width: 40% !important;
+        margin-top: -1px;
     }
 }
 .top-bar{

@@ -16,25 +16,25 @@ export class StepOne extends React.Component {
                 <h3 className="fs-subtitle">What is your height?</h3>
                 <div className="row">
                     <div className="col-md-6">
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">80 to 90 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">130 to 135 cm
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">91 to 100 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">136 to 140 cm
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">101 to 110 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">141 to 145 cm
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">111 to 115 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">146 to 150 cm
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">116 to 120 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">151 to 160 cm
                         </button>
                     </div>
                     <div className="col-md-6">
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">121 to 125 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">160 to 170 cm
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">126 to 130 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">171 to 180 cm
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">131 to 135 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">181 to 190 cm
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">136 to 140 cm
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">191 to 200 cm
                         </button>
                         <button type="button" className="btn btn-outline-info btn-rounded waves-effect">Skip</button>
                     </div>

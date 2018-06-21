@@ -33,7 +33,7 @@ class App extends Component {
                                             </li>
                                             <li><Link to={'/Price'}>Price</Link></li>
                                             <li><Link to={'/Events'}>Events</Link></li>
-                                            <li><Link to={'/BasicRegister'}>Register</Link></li>
+                                            <li><Link to={'/Signup'}>Register</Link></li>
                                         </ul>
                                     </div>
                                 </div>

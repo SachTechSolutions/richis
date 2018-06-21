@@ -9,15 +9,15 @@ export class StepFive extends React.Component {
                 <h3 className="fs-subtitle">Annual Income</h3>
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$50K～$70K
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$500K～$700K
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$70K～$90K
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$701～$900K
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$91K～$110K
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$901K～$1100K
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$111K～$120K
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$1100K～$1600K
                         </button>
-                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$121K～$131K
+                        <button type="button" className="btn btn-outline-info btn-rounded waves-effect">$1600K～$2400K
                         </button>
                         <button type="button" className="btn btn-outline-info btn-rounded waves-effect">More Than
                             $240K

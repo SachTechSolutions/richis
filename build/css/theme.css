@@ -2,7 +2,10 @@
   background-color: #e74c3c !important;
 }
 .bg-secondary-1 {
-  background-color: #2c3e50 !important;
+  background-color: #202020 !important;
+}
+.bg-secondary-15 {
+  background-color: #2C3E50 !important;
 }
 .bg-secondary-2 {
   background-color: #3498db !important;
@@ -212,7 +215,7 @@ span.text-white a {
   -moz-transition: all .5s ease;
   transition: all .5s ease;
   opacity: 1;
-  display: none;
+  display: none
 }
 .spinner {
   width: 40px;
@@ -452,7 +455,7 @@ nav hr {
   bottom: 20px !important;
 }
 .nav-menu {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .nav-menu .social-icons {
   float: right;
@@ -481,6 +484,7 @@ nav hr {
 }
 .overlay-bar {
   background: rgba(255,255,255,0.3);
+  box-shadow: 0px 0px 130px 0px white;
 }
 .overlay-bar .has-dropdown:after {
   color: #fff;
@@ -786,8 +790,7 @@ header .btn:last-child {
 }
 .page-header {
   margin: 0px;
-  padding: 0px;
-  padding: 120px 0px;
+  padding: 105px 0px;
   border-bottom: none;
 }
 .page-header h1 {
@@ -803,9 +806,9 @@ header .btn:last-child {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.3;
+  opacity: 0;
   z-index: 2;
-  background-color: #333333;
+  background:rgba(0,0,0,0);
 }
 .page-header .background-image-holder {
   height: 150%;
@@ -2823,7 +2826,17 @@ footer.short-2 .contact-action .arrow_right {
 footer.short-2 .contact-action:hover {
   background: #ad2315;
 }
+.mobile-couple{
+  display: none;
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .main-couple{
+    display: none;
+  }
+  .mobile-couple{
+    display: block!important;
+  }
   .top-bar {
     position: absolute;
   }
@@ -2837,20 +2850,27 @@ footer.short-2 .contact-action:hover {
     -moz-transition: all .5s ease;
     transition: all .5s ease;
   }
-  nav .logo {
-    margin-bottom: 32px;
+  .nav-menu {
+    padding-top: 0px;
+  }
+  .mobile-view{
+    background: #FFE8E3 !important;
+    margin-top: 13px;
+  }
+  section h1 {
+    width: 275px;
   }
   nav .columns {
     width: 100%;
+    background: #FFD5CC;
+    padding-top: 2px;
+    border-bottom: 1px solid #F1B8AF;
   }
   nav .social-icons {
     display: none;
   }
   .open-nav {
     max-height: 8000px;
-  }
-  .nav-menu {
-    padding-top: 24px;
   }
   .top-bar .logo {
     bottom: 0px;
@@ -2868,8 +2888,10 @@ footer.short-2 .contact-action:hover {
     cursor: pointer;
     color: #333333;
   }
-  .overlay-bar {
-    background: rgba(255, 255, 255, 0.9);
+  .breadcrumb-style{
+    color:#720D05;
+    font-weight: bold;
+    font-size: 50px;
   }
   .overlay-bar .logo-light {
     display: none;
@@ -3145,7 +3167,24 @@ footer.short-2 .contact-action:hover {
   .instafeed ul li {
     width: 25%;
   }
+  .pd-80 {
+    padding-top: 0px!important;
+  }
+  .store-link img {
+    height: 40px;
+    width: 129px;
+  }
+  .richie_screen{
+    display:none;
+  }
+  .feature-icon-large .pull-left {
+    width: 100%;
+  }
+  .feature-icon-large .pull-right {
+    width: 100%;
+  }
 }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .flex-direction-nav {
     display: none;
@@ -4327,9 +4366,7 @@ footer.short-2 .contact-action:hover {
     font-size: 18px;
     line-height: 26px;
   }
-  .fullscreen-element .align-vertical {
-    padding-top: 80px !important;
-  }
+
 }
 .product-action {
   height: auto;
@@ -4380,5 +4417,4 @@ footer.short-2 .contact-action:hover {
 .clr-orange{
   color:#F68101;
   font-weight: bold;
-  font-size: 3.8rem;
 }
